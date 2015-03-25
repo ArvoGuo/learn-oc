@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>first.xcscheme</key>
+		<key>BOOL Party.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>715243221A3210890086BA0F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>715243371A3210890086BA0F</key>
+		<key>7123C6191AC2621900213324</key>
 		<dict>
 			<key>primary</key>
 			<true/>

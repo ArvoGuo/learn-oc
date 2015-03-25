@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0620"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "715243221A3210890086BA0F"
-               BuildableName = "first.app"
-               BlueprintName = "first"
-               ReferencedContainer = "container:first.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "715243371A3210890086BA0F"
-               BuildableName = "firstTests.xctest"
-               BlueprintName = "firstTests"
-               ReferencedContainer = "container:first.xcodeproj">
+               BlueprintIdentifier = "7123C6191AC2621900213324"
+               BuildableName = "BOOL Party"
+               BlueprintName = "BOOL Party"
+               ReferencedContainer = "container:BOOL Party.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "715243371A3210890086BA0F"
-               BuildableName = "firstTests.xctest"
-               BlueprintName = "firstTests"
-               ReferencedContainer = "container:first.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "715243221A3210890086BA0F"
-            BuildableName = "first.app"
-            BlueprintName = "first"
-            ReferencedContainer = "container:first.xcodeproj">
+            BlueprintIdentifier = "7123C6191AC2621900213324"
+            BuildableName = "BOOL Party"
+            BlueprintName = "BOOL Party"
+            ReferencedContainer = "container:BOOL Party.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -72,13 +48,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "715243221A3210890086BA0F"
-            BuildableName = "first.app"
-            BlueprintName = "first"
-            ReferencedContainer = "container:first.xcodeproj">
+            BlueprintIdentifier = "7123C6191AC2621900213324"
+            BuildableName = "BOOL Party"
+            BlueprintName = "BOOL Party"
+            ReferencedContainer = "container:BOOL Party.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,13 +67,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "715243221A3210890086BA0F"
-            BuildableName = "first.app"
-            BlueprintName = "first"
-            ReferencedContainer = "container:first.xcodeproj">
+            BlueprintIdentifier = "7123C6191AC2621900213324"
+            BuildableName = "BOOL Party"
+            BlueprintName = "BOOL Party"
+            ReferencedContainer = "container:BOOL Party.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

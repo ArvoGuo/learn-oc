@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Shapes-Inheritance/main.m"
-            timestampString = "449033761.705797"
+            timestampString = "449119885.552454"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "@interface Shape"
             landmarkType = "2">
          </BreakpointContent>

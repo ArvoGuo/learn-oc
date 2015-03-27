@@ -20,7 +20,17 @@ typedef enum {
 typedef struct {
   int x, y, width, height;
 } ShapeRect;
-
+NSString *colorName (ShapeColor colorName) {
+  switch (colorName) {
+    case kRedColor:
+      return @"red";
+      break;
+      
+    default:
+      break;
+  }
+  return @"no clue";
+}
 @interface Shape : NSObject {
   ShapeColor fillColor;
   ShapeRect  bounds;
@@ -55,18 +65,20 @@ typedef struct {
 @implementation Circle
 
 - (void)draw {
-  NSLog(@"drawing acircle at (%d %d %d %d) in %@"),
+  NSLog(@"drawing acircle at (%d %d %d %d) in %@",
   bounds.x, bounds.y,
   bounds.width, bounds.height,
-  colorName()
+  colorName(fillColor));
 }
 
 @end
 
 int main(int argc, const char * argv[]) {
-  @autoreleasepool {
-      // insert code here...
-      NSLog(@"Hello, World!");
-  }
+  id S[3];
+  ShapeRect rect = { 0, 0 , 10, 30};
+  S[0] = [Circle new];
+  [S[0] setBounds:rect];
+  [S[0] setFillColor: kRedColor];
+  [S[0] draw];
     return 0;
 }

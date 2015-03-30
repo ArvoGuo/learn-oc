@@ -44,7 +44,7 @@
 
 - (id) init {
   if (self = [super init]) {
-    engine    = [Engine new];
+    engine   = [Engine new];
     tires[0] = [Tire new];
     tires[1] = [Tire new];
     tires[2] = [Tire new];
